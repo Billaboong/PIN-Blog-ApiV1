@@ -32,7 +32,7 @@ symfony serve:start
 <b>User</b>
 
 - POST /register: Create a user to be used for authentication
-- POST /login_check: Generate a token to use as authorization for protected endpoints
+- POST /login_check: Generate a token to use as to grant access to protected endpoints
 
 <b>Blog</b>
 
