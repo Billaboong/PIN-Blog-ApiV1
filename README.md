@@ -30,9 +30,12 @@ symfony serve:start
 <a href="https://app.swaggerhub.com/apis/MAGEROIAN/people-in_need_blog_api/1.0.0">People In Need - Blog API</a>
 
 <b>User</b>
+
 - POST /register: Create a user to be used for authentication
 - POST /login_check: Generate a token to use as authorization for protected endpoints
+
 <b>Blog</b>
+
 - GET /api/blogs: Returns all blogs.
 - POST /api/blogs: Creates a new blogs.
 - GET /api/blogs/{id}: Shows a blog with the specified ID.
