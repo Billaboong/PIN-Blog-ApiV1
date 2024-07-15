@@ -36,6 +36,8 @@ symfony serve:start
 
 <b>Blog</b>
 
+To access the below endpoints you will need to set the bearer token generated from /login_check endpoint
+
 - GET /api/blogs: Returns all blogs.
 - POST /api/blogs: Creates a new blogs.
 - GET /api/blogs/{id}: Shows a blog with the specified ID.
