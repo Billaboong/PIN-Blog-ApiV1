@@ -29,3 +29,11 @@ symfony serve:start
 ## API Documentation
 <a href="https://app.swaggerhub.com/apis/MAGEROIAN/people-in_need_blog_api/1.0.0">People In Need - Blog API</a>
 
+GET /api/blogs: Returns all blogs.
+POST /api/blogs: Creates a new blogs.
+GET /api/blogs/{id}: Shows a blog with the specified ID.
+PUT /api/blogs/{id}: Updates the blogs with the specified ID.
+DELETE /api/blogs/{id}: Deletes the blogs with the specified ID.
+GET /api/blogs/search/{id}: Retrieves a blogs by ID.
+GET /api/blogs/search/description/{description}: Retrieves blogs which have texts as the description.
+
