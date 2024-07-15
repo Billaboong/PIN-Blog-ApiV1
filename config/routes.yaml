@@ -18,19 +18,19 @@ blog_api_show:
 
 
 blog_api_create:
-   path: /api/blogs
+   path: /api/blogs/create
    controller: 'App\Controller\BlogController::create'
    methods: ['POST']
 
 
 blog_api_update:
-   path: /api/blogs/{id}
+   path: /api/blogs/update/{id}
    controller: 'App\Controller\BlogController::update'
    methods: ['PUT']
 
 
 blog_api_delete:
-   path: /api/blogs/{id}
+   path: /api/blogs/delete/{id}
    controller: 'App\Controller\BlogController::delete'
    methods: ['DELETE']
 
