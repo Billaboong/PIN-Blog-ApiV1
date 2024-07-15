@@ -21,3 +21,11 @@ The above command might throw some errors but the relevant tables will be create
 ### Generate keys for use with authentication of the API
 Authentication uses <a href="https://symfony.com/bundles/LexikJWTAuthenticationBundle/current/index.html">LexikJWTAuthenticationBundle</a> hence navigate to the page and generate the keys as described there. Kindly note you will not need to install it but only set it up so that in your .env file you will have its configuration as explained in the documentation page.
 
+## Serve the application
+```
+symfony serve:start
+```
+
+## API Documentation
+<a href="https://app.swaggerhub.com/apis/MAGEROIAN/people-in_need_blog_api/1.0.0">People In Need - Blog API</a>
+
